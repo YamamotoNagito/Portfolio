@@ -1,7 +1,5 @@
 <template>
-<div>
-  <v-app>
-    <header>
+  <header>
       <v-app-bar
         app
         dark
@@ -36,18 +34,16 @@
           </v-list-item-group>
         </v-list>
       </v-navigation-drawer>
-    </header>
     <!-- <body> -->
     <!-- <v-content>
       <my-skill/>
     </v-content> -->
     <!-- </body> -->
-  </v-app>
-</div>
+  </header>
 </template>
 
 <script>
-// import MySkill from './components/MySkill'
+// import MySkill from './MySkill'
 import constants from '../styles/common/constants.js'
 // import "../styles/common/common.scss"
 
