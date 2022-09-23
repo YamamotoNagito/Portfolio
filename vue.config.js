@@ -3,6 +3,7 @@ module.exports = defineConfig({
   transpileDependencies: [
     'vuetify'
   ],
+  publicPath:'./',
   // css: {
   //   loaderOptions: {
   //     scss: {
