@@ -1,40 +1,41 @@
 <template>
-  <div class="work">
+  <div class="work" id="MyWork">
     <h1 class="text-center work-h1">作品</h1>
-      <v-timeline>
-    <v-timeline-item
-      v-for="(year, i) in years"
-      :key="i"
-      :color="year.color"
-      small
-    >
-      <template v-slot:opposite>
-        <span
-          :class="`headline font-weight-bold ${year.color}--text`"
-          v-text="year.year"
-        ></span>
-      </template>
-      <div class="py-4">
-        <h2 :class="`headline font-weight-light mb-4 ${year.color}--text`">
-          <strong>{{year.title}}</strong>
-        </h2>
-        <div>
-          <!-- Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae. -->
-          {{year.message}}
-          <br>
-          <!-- <div v-if="flag">
-          ddddddddddd
-          </div> -->
-          <div v-if="year.urlflag">
-            <a href="http://manabi.gonna.jp/manabi-rika/listhtml/syokubutu1.html">サイトはこちらから</a>
-            <!-- <a href="year.url">こちらから</a> -->
+    <br>
+    <v-timeline>
+      <v-timeline-item
+        v-for="(year, i) in years"
+        :key="i"
+        :color="year.color"
+        small
+      >
+        <template v-slot:opposite>
+          <span
+            :class="`headline font-weight-bold ${year.color}--text`"
+            v-text="year.year"
+          ></span>
+        </template>
+        <div class="py-4">
+          <h2 :class="`headline font-weight-light mb-4 ${year.color}--text`">
+            <strong>{{year.title}}</strong>
+          </h2>
+          <div>
+            <!-- Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae. -->
+            {{year.message}}
+            <br>
+            <!-- <div v-if="flag">
+            ddddddddddd
+            </div> -->
+            <div v-if="year.urlflag">
+              <a href="http://manabi.gonna.jp/manabi-rika/listhtml/syokubutu1.html">サイトはこちらから</a>
+              <!-- <a href="year.url">こちらから</a> -->
+            </div>
+            <br>
+            <!-- {{year.alt}} -->
           </div>
-          <br>
-          <!-- {{year.alt}} -->
         </div>
-      </div>
-    </v-timeline-item>
-  </v-timeline>
+      </v-timeline-item>
+    </v-timeline>
   </div>
 </template>
 

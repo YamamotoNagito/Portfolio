@@ -1,6 +1,7 @@
 <template>
-  <div class="skill">
+  <div class="skill" id="MySkill">
     <h1 class="text-center skill-h1">プログラミングスキル</h1>
+    <br>
     <v-row>
       <v-col
         cols="6"
@@ -8,7 +9,9 @@
         md="4"
       >
         <div class="text-center">
-          <img src="../assets/python.jpg">
+          <!-- <img src="../assets/python.png"> -->
+          <img src="../assets/python.svg" width="200" height="200">
+
           <p><b>Python</b></p>
           <!-- <p> -->
           <star-rating
@@ -37,7 +40,7 @@
         md="4"
       >
         <div class="text-center">
-          <img src="../assets/logo.png">
+          <img src="../assets/C.svg" width="200" height="200">
           <p><b>C言語</b></p>
           <!-- <p> -->
           <star-rating
@@ -65,7 +68,7 @@
         md="4"
       >
         <div class="text-center">
-          <img src="../assets/logo.png">
+          <img src="../assets/vue.svg" width="200" height="200">
           <p><b>Vue</b></p>
           <!-- <p> -->
           <star-rating
@@ -91,7 +94,7 @@
         md="4"
       >
         <div class="text-center">
-          <img src="../assets/logo.png">
+          <img src="../assets/ExcelVBA.svg" width="200" height="200">
           <p><b>ExcelVBA</b></p>
           <!-- <p> -->
           <star-rating
@@ -119,7 +122,7 @@
         md="4"
       >
         <div class="text-center">
-          <img src="../assets/logo.png">
+          <img src="../assets/unity.svg" width="200" height="200">
           <p><b>Unity(C#)</b></p>
           <!-- <p> -->
           <star-rating
@@ -147,7 +150,7 @@
         md="4"
       >
         <div class="text-center">
-          <img src="../assets/logo.png">
+          <img src="../assets/go.svg" width="200" height="200">
           <p><b>Go言語</b></p>
           <!-- <p> -->
           <star-rating

@@ -3,9 +3,10 @@
     <AppHeader/>
 
     <v-content>
-      <MyProfile/>
+      <router-view/>
+      <!-- <MyProfile/>
       <MySkill/>
-      <MyWork/>
+      <MyWork/> -->
     </v-content>
     
     <AppFooter/>
@@ -15,17 +16,17 @@
 <script>
 import AppHeader from './components/AppHeader.vue'
 import AppFooter from './components/AppFooter.vue' 
-import MyProfile from './components/MyProfile.vue' 
-import MySkill from './components/MySkill.vue' 
-import MyWork from './components/MyWork.vue' 
+// import MyProfile from './components/MyProfile.vue' 
+// import MySkill from './components/MySkill.vue' 
+// import MyWork from './components/MyWork.vue' 
  
 export default {
   components: {
     AppHeader,
     AppFooter,
-    MyProfile,
-    MySkill,
-    MyWork
+    // MyProfile,
+    // MySkill,
+    // MyWork
   }
 }
 </script>

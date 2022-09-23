@@ -1,28 +1,16 @@
 export default {
     menuItems: [
       {
-        name: 'タイトル',
-        url: '#'
+        name: 'プロフィール',
+        url: '/'
       },
       {
-        name: 'スキル',
-        url: '#'
+        name: 'プログラミングスキル',
+        url: '/MySkill'
       },
       {
         name: '作品',
-        url: '#'
+        url: '/MyWork'
       },
-      {
-        name: '趣味・特技',
-        url: '#'
-      },
-    //   {
-    //     name: 'BLOG',
-    //     url: '#'
-    //   },
-    //   {
-    //     name: 'ACCESS',
-    //     url: '#'
-    //   }
     ]
   }

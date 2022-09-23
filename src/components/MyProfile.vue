@@ -1,6 +1,7 @@
 <template>
-  <div class="profile">
+  <div class="profile" id="MyProfile">
     <h1 class="text-center profile-h1">プロフィール</h1>
+    <br>
     <v-row no-gutters>
       <v-col
         cols="6"
@@ -15,11 +16,12 @@
         > -->
         <div class="text-center">
           <!-- 今後画像の差し替えを検討 -->
-          <img src="../assets/logo.png">
+          <!-- <img src="../assets/logo.png"> -->
+          <img src="../assets/MyPhoto.png" width="200" height="200">
           <br>
-          <p>〇〇大学大学院</p>
-          <p>〇〇専攻</p>
-          <p>〇〇〇〇</p>
+          <p>広島大学大学院</p>
+          <p>先進理工系科学研究科 先進理工系科学 情報科学プログラム専攻</p>
+          <p>山本 凪人</p>
         </div>
         <!-- </v-card> -->
       </v-col>
